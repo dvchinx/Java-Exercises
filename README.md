@@ -1,42 +1,41 @@
-<h1 align="center"> Java Exercises </h1>
+# ☕ Java-Exercises  
 
-<h2> Current Levels </h2>
+**Un repositorio para practicar y mejorar habilidades de programación en Java, organizados por niveles de dificultad.**  
 
-**1- Basic:**
-- Exercise 1:
-Sum of two floating numbers in an integer.
+Este proyecto utiliza **Apache Ant** como herramienta de construcción, con ejercicios clasificados en tres paquetes:  
+- **Básico**.
+- **Intermedio**.
+- **Avanzado**.
 
-- Exercise 2:
-Calculate the area of a triangle.
+---
 
-- Exercise 3:
-Conversion from degrees Celsius to Fahrenheit and vice versa.
+## 🛠️ Tecnologías utilizadas  
+- **Lenguaje:** Java 11+  
+- **Herramienta de construcción:** Apache Ant  
+- **IDE recomendado:** IntelliJ IDEA, Eclipse o NetBeans  
 
-- Exercise 4:
-Check if a number is even or odd.
+---
 
-- Exercise 5:
-Calculate the greatest common divisor of two numbers.
+## 📂 Estructura del Proyecto  
 
-- Exercise 6:
-Check if a string is a palindrome or not.
-
-- In Development...
-
-**2- Intermediate:**
-- Exercise 1:
-Create a basic calculator using polymorphism and inheritance.
-
-- Exercise 2:
-Counter of characters in a string using equals() and length().
-
-- Exercise 3:
-Calculate a number in the Fibonacci series using recursion.
-
-- In Development...
-
-**3- Advanced:**
-- Exercise 1:
-Create a system of bank accounts using Hash and HashMap.
-
-- In Development...
+```plaintext
+Java-Exercises/
+├── src/
+│   ├── Basic/             # Ejercicios básicos
+│   │   ├── Exercise1
+│   │   │   ├── SolutionES
+│   │   │   │   └── ExecSolve.java
+│   │   │   ├── Ejercicio1ES.md
+│   │   │   └── Exercise1EN.md
+│   │   └── ...
+│   ├── Intermediate/      # Ejercicios intermedios
+│   │   ├── Exercise1
+│   │   │   ├── SolutionES
+│   │   │   │   └── ExecSolve.java
+│   │   │   ├── Ejercicio1ES.md
+│   │   │   └── Exercise1EN.md
+│   │   └── ...
+│   └── Advanced/          # Ejercicios avanzados
+│       └── ...
+├── build.xml              # Archivo de construcción de Ant
+└── README.md              # Este archivo
